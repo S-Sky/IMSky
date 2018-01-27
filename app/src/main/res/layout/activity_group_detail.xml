@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sky.imsky.controller.activity.GroupDetailActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="群详情"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <GridView
+        android:id="@+id/gv_group_detail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:horizontalSpacing="10dp"
+        android:numColumns="4"
+        android:padding="10dp"
+        android:scrollbars="none"
+        android:verticalSpacing="10dp" />
+
+    <Button
+        android:id="@+id/btn_group_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:text="退群"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sky社交</string>
+    <string name="call_version_inconsistent">Both call version are inconsistent</string>
+    <string name="network_unstable">Network unstable</string>
+    <string name="no_call_data">No call data</string>
+    <string name="have_connected_with">Connected to the peer</string>
+    <string name="switch_camera">Switch camera</string>
+    <string name="capture_image">Capture image</string>
+
+</resources>
